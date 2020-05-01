@@ -2,7 +2,7 @@
 Minimal implementation of YOLOv3 in PyTorch.
 And Training from Kitti dataset
 
-## HI THERE~ THIS repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti)
+##This repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti)
 
 ## Installation
     $ cd Object_Detection/
