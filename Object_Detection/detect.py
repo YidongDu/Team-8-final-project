@@ -24,7 +24,7 @@ from matplotlib.ticker import NullLocator
 kitti_weights = 'weights/kitti.weights'
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--image_folder', type=str, default='data/samples2/', help='path to dataset')
+parser.add_argument('--image_folder', type=str, default='data/samples/', help='path to dataset')
 parser.add_argument('--config_path', type=str, default='config/yolov3-kitti.cfg', help='path to model config file')
 parser.add_argument('--weights_path', type=str, default=kitti_weights, help='path to weights file')
 parser.add_argument('--class_path', type=str, default='data/kitti.names', help='path to class label file')
@@ -56,7 +56,6 @@ dataloader = DataLoader(ImageFolder(opt.image_folder, img_size=opt.img_size),
                         batch_size=opt.batch_size, shuffle=False, num_workers=opt.n_cpu)
 
 classes = load_classes(opt.class_path) # Extracts class labels from file
-print(len(classes))
 
 Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 
@@ -73,10 +72,8 @@ for batch_i, (img_paths, input_imgs) in enumerate(dataloader):
     # Get detections
     with torch.no_grad():
         detections = model(input_imgs)
-        #print(detections[0].shape)
         detections = non_max_suppression(detections, 80, opt.conf_thres, opt.nms_thres)
-        #print(detections[0].shape)
-
+        
 
     # Log progress
     current_time = time.time()
@@ -99,7 +96,7 @@ max_detect = 0
 max_detect_img = 0
 for img_i, (path, detections) in enumerate(zip(imgs, img_detections)):
 
-    #print ("(%d) Image: '%s'" % (img_i, path))
+    print ("(%d) Image: '%s'" % (img_i, path))
 
     # Create plot
     img = np.array(Image.open(path))
@@ -132,7 +129,7 @@ for img_i, (path, detections) in enumerate(zip(imgs, img_detections)):
             img_writer = csv.writer(img_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             for i, detection in enumerate(detections):
                 #x1, y1, x2, y2, conf, cls_conf, cls_pred
-                #print ('\t+ Label: %s, Conf: %.5f' % (classes[int(detection[-1])], detection[4].item()))
+                print ('\t+ Label: %s, Conf: %.5f' % (classes[int(detection[-1])], detection[4].item()))
                 # Rescale coordinates to original dimensions
                 box_h = int(((detection[3] - detection[1]) / unpad_h) * (img.shape[0]))
                 box_w = int(((detection[2] - detection[0]) / unpad_w) * (img.shape[1]) )
