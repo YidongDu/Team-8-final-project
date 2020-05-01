@@ -1,80 +1,33 @@
-# PyTorch-YOLOv3-Kitti
+# YOLOv3-Kitti-Object-Detector
 Minimal implementation of YOLOv3 in PyTorch.
 And Training from Kitti dataset
 
-## Table of Contents
-- [PyTorch-YOLOv3](#pytorch-yolov3-kitti)
-  * [Table of Contents](#table-of-contents)
-  * [Paper](#paper)
-  * [Installation](#installation)
-  * [Inference](#inference)
-  * [Video](#video)
-  * [Test](#test)
-  * [Detect](#detect)
-  * [Train](#train)
-  * [Credit](#credit)
-
-
-## HI THERE~ THIS repo is forked from [eriklindernoren](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+## HI THERE~ THIS repo is forked from [packyan](https://github.com/packyan/PyTorch-YOLOv3-kitti)
 
 ## Installation
-    $ git clone https://github.com/packyan/PyTorch-YOLOv3-kitti.git
-    $ cd PyTorch-YOLOv3-kitti/
+    $ cd Object_Detection/
     $ sudo pip3 install -r requirements.txt
 
 
 ##### Download pretrained weights
-if you wan use pretrained darknet-53 on IMAGENET weights, please download [darknet53.conv.74](https://pjreddie.com/media/files/darknet53.conv.74),and put it into `checkpoints/`
+The pretrained weights for KITTI dataset for test or detect, can be downloaded from [pretrained weights file](https://drive.google.com/file/d/1BRJDDCMRXdQdQs6-x-3PmlzcEuT9wxJV/view?usp=sharing). Put it into `weights` folder, the path:
+`weights/kitti.weights`
 
-if you just want a pretrained weights on kitti dataset for test or detect, please download [pretrained weights file](https://drive.google.com/file/d/1BRJDDCMRXdQdQs6-x-3PmlzcEuT9wxJV/view?usp=sharing), and put it into `weights` folder, the path:
-`weights/yolov3-kitti.weights`
+##### Prepare Data
+Copy all the image files from seq_name/image_02/data into data/samples.
 
-##### Download Kitti 
+Example. seq_name = "2011_09_26/2011_09_26_drive_0005_sync/image_02/data"
 
-[The KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/eval_object.php)
-
-and you should transfrom kitti lable to coco label, by using [label_transform](label_transform/README.md)
-
-## Inference
-Uses pretrained weights to make predictions on images. `weights/yolov3-kitti.weights` was trained by kitti data set.
+## Detection
+Uses pretrained weights to make predictions on images. `weights/kitti.weights` was trained by kitti data set.
 `python3 detect.py --image_folder /data/samples`
 
-<p align="center"><img src="assets/12.png" width="480"\></p>
-<p align="center"><img src="assets/20.png" width="480"\></p>
-<p align="center"><img src="assets/18.png" width="480"\></p>
-<p align="center"><img src="assets/3.png" width="480"\></p>
+The output images with bounding boxes and csv files with semantic information is saved in the 'output' directory.
 
-Small objects detection
+The csv files data is stored in the following format:
 
-<p align="center"><img src="assets/4.png" width="480"\></p>
+x_centroid_pixel|y_centroid_pixel|bbox_width|bbox_height|class_probability|class_number|class_0_prob|class_1_prob|class_2_prob|class_3_prob|class_4_prob|class_5_prob|class_6_prob|class_7_prob
 
-## Detect
-
-run`detect.py` to detect objects, and please  put samples into `data/samples`
-defult weights files is `weights/kitti.weights`
-
-## Video
-
-run `video.py` to detect objects from a webcam or a video file.
-On I7 7700 8G GTX1070 FPS is 22 cause some problems, test resized images is really faster than resizeing images and then inference.
-## Test
-
-run `test.py`
-
-## Train
-Please run `python3 -m visdom.server` first to vislizer your training loss.
-
-Data augmentation as well as additional training tricks remains to be implemented. PRs are welcomed!
-```
-    train.py [-h] [--epochs EPOCHS] [--image_folder IMAGE_FOLDER]
-                [--batch_size BATCH_SIZE]
-                [--model_config_path MODEL_CONFIG_PATH]
-                [--data_config_path DATA_CONFIG_PATH]
-                [--weights_path WEIGHTS_PATH] [--class_path CLASS_PATH]
-                [--conf_thres CONF_THRES] [--nms_thres NMS_THRES]
-                [--n_cpu N_CPU] [--img_size IMG_SIZE]
-                [--checkpoint_interval CHECKPOINT_INTERVAL]
-                [--checkpoint_dir CHECKPOINT_DIR]
 ```
 ## Paper
 ### YOLOv3: An Incremental Improvement
