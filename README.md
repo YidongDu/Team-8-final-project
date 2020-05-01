@@ -3,7 +3,7 @@ We are Team 8 for EECS 568 University of Michigan, and this is our final project
 
 Our project aims to achieve probabilistic data association in semantic SLAM with loop closure detection included. For further details please check our report.
 
-Team members:
+Team members:  
 Aohan(Roger) Mei  
 Can Jiang  
 Manas Buragohain  
