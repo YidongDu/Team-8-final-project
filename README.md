@@ -1,7 +1,7 @@
 # Team-8-final-project
 We are Team 8 for EECS 568 University of Michigan, and this is our final project page.
 
-Our project aims to achieve probabilistic data association in semantic SLAM with loop closure detection included. For further details please check our report.
+Our project aims to achieve probabilistic data association in semantic SLAM with loop closure detection included. For further details please check our [report](https://github.com/YidongDu/Team-8-final-project/blob/master/Final_report/Team_8_Final_Report.pdf).
 
 Our video can be found on https://www.youtube.com/watch?v=ssupiMpUU20&feature=youtu.be
 
