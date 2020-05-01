@@ -28,7 +28,6 @@ The csv files data is stored in the following format:
 
 x_centroid_pixel | y_centroid_pixel | bbox_width | bbox_height | class_probability | class_number | class_0_prob |class_1_prob | class_2_prob | class_3_prob | class_4_prob | class_5_prob | class_6_prob | class_7_prob
 
-```
 ## Paper
 ### YOLOv3: An Incremental Improvement
 _Joseph Redmon, Ali Farhadi_ <br>
