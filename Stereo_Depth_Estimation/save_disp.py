@@ -75,7 +75,7 @@ def test():
 #             print("saving to", fn, disp_est.shape)
             data = []
             xyz = []
-            with open("../PyTorch-YOLOv3-kitti/output/%s.csv"%(fn.split('/')[-1].split('.')[0])) as csv_file:
+            with open("../Object_Detection/output/%s.csv"%(fn.split('/')[-1].split('.')[0])) as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=',')
                 for row in csv_reader:
                     data.append(row)
