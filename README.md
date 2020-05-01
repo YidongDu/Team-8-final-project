@@ -4,11 +4,11 @@ We are Team 8 for EECS 568 University of Michigan, and this is our final project
 Our project aims to achieve probabilistic data association in semantic SLAM with loop closure detection included. For further details please check our report.
 
 Team members:
-Aohan(Roger) Mei
-Can Jiang
-Manas Buragohain
-Owen Winship
-Yidong Du
+Aohan(Roger) Mei  
+Can Jiang  
+Manas Buragohain  
+Owen Winship  
+Yidong Du  
 
 The project is split up into different parts, please check corresponding README to see dependencies and instructions.
 [imu_factors](https://github.com/YidongDu/Team-8-final-project/edit/master/imu_factors/README.md)  
