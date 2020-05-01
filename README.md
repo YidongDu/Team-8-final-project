@@ -16,7 +16,7 @@ The project is split up into different parts, please check corresponding README 
 
 [imu_factors](https://github.com/YidongDu/Team-8-final-project/edit/master/imu_factors/README.md)  
 [Visual Odometry](https://github.com/YidongDu/Team-8-final-project/edit/master/Visual_Odometry/README.md)  
-[Object_Detection](https://github.com/YidongDu/Team-8-final-project/blob/master/Object_Detection/README.md)
+[Object_Detection](https://github.com/YidongDu/Team-8-final-project/blob/master/Object_Detection/README.md) 
 [Stereo Depth Estimation](https://github.com/YidongDu/Team-8-final-project/edit/master/Stereo_Depth_Estimation/README.md)  
 [Loop Closure Detection](https://github.com/YidongDu/Team-8-final-project/edit/master/Loop_Closure_Detection/README.md)  
 [Back end](https://github.com/YidongDu/Team-8-final-project/edit/master/Back_ends/README.md)
