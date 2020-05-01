@@ -1,1 +1,1 @@
-We follow the GTSAM example IMUKittiExampleGPS, and remove the GPS measurements to get preintegrated IMU factors.
+We follow the GTSAM example IMUKittiExampleGPS, and remove the GPS measurements to get preintegrated IMU factors. Our main program computes IMU factors during the main loop. The programs included in this folder provide an example of how to use preintegrated IMU factors,
