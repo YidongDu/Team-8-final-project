@@ -1,0 +1,1597 @@
+Config:
+Namespace(batch_size=1, class_path='data/kitti.names', conf_thres=0.8, config_path='config/yolov3-kitti.cfg', image_folder='data/samples/', img_size=416, n_cpu=8, nms_thres=0.4, use_cuda=True, weights_path='weights/kitti.weights')
+model path: weights/kitti.weights
+using cuda model
+8
+data size : 154
+
+Performing object detection:
+	+ Batch 0, Inference Time: 0:00:01.187831
+	+ Batch 1, Inference Time: 0:00:00.035067
+	+ Batch 2, Inference Time: 0:00:00.055822
+	+ Batch 3, Inference Time: 0:00:00.033900
+	+ Batch 4, Inference Time: 0:00:00.032891
+	+ Batch 5, Inference Time: 0:00:00.032647
+	+ Batch 6, Inference Time: 0:00:00.035151
+	+ Batch 7, Inference Time: 0:00:00.031746
+	+ Batch 8, Inference Time: 0:00:00.037566
+	+ Batch 9, Inference Time: 0:00:00.032415
+	+ Batch 10, Inference Time: 0:00:00.036188
+	+ Batch 11, Inference Time: 0:00:00.032632
+	+ Batch 12, Inference Time: 0:00:00.032880
+	+ Batch 13, Inference Time: 0:00:00.032085
+	+ Batch 14, Inference Time: 0:00:00.032211
+	+ Batch 15, Inference Time: 0:00:00.030851
+	+ Batch 16, Inference Time: 0:00:00.032276
+	+ Batch 17, Inference Time: 0:00:00.031727
+	+ Batch 18, Inference Time: 0:00:00.033414
+	+ Batch 19, Inference Time: 0:00:00.034148
+	+ Batch 20, Inference Time: 0:00:00.031868
+	+ Batch 21, Inference Time: 0:00:00.031591
+	+ Batch 22, Inference Time: 0:00:00.032510
+	+ Batch 23, Inference Time: 0:00:00.157727
+	+ Batch 24, Inference Time: 0:00:00.032093
+	+ Batch 25, Inference Time: 0:00:00.031669
+	+ Batch 26, Inference Time: 0:00:00.033084
+	+ Batch 27, Inference Time: 0:00:00.032608
+	+ Batch 28, Inference Time: 0:00:00.031226
+	+ Batch 29, Inference Time: 0:00:00.031673
+	+ Batch 30, Inference Time: 0:00:00.032123
+	+ Batch 31, Inference Time: 0:00:00.222179
+	+ Batch 32, Inference Time: 0:00:00.055763
+	+ Batch 33, Inference Time: 0:00:00.030690
+	+ Batch 34, Inference Time: 0:00:00.031320
+	+ Batch 35, Inference Time: 0:00:00.030560
+	+ Batch 36, Inference Time: 0:00:00.030861
+	+ Batch 37, Inference Time: 0:00:00.031465
+	+ Batch 38, Inference Time: 0:00:00.029279
+	+ Batch 39, Inference Time: 0:00:00.188613
+	+ Batch 40, Inference Time: 0:00:00.030730
+	+ Batch 41, Inference Time: 0:00:00.060808
+	+ Batch 42, Inference Time: 0:00:00.029367
+	+ Batch 43, Inference Time: 0:00:00.031797
+	+ Batch 44, Inference Time: 0:00:00.033222
+	+ Batch 45, Inference Time: 0:00:00.030239
+	+ Batch 46, Inference Time: 0:00:00.030573
+	+ Batch 47, Inference Time: 0:00:00.155017
+	+ Batch 48, Inference Time: 0:00:00.030559
+	+ Batch 49, Inference Time: 0:00:00.032482
+	+ Batch 50, Inference Time: 0:00:00.030040
+	+ Batch 51, Inference Time: 0:00:00.031336
+	+ Batch 52, Inference Time: 0:00:00.031552
+	+ Batch 53, Inference Time: 0:00:00.033601
+	+ Batch 54, Inference Time: 0:00:00.030974
+	+ Batch 55, Inference Time: 0:00:00.125246
+	+ Batch 56, Inference Time: 0:00:00.055854
+	+ Batch 57, Inference Time: 0:00:00.038950
+	+ Batch 58, Inference Time: 0:00:00.037505
+	+ Batch 59, Inference Time: 0:00:00.035840
+	+ Batch 60, Inference Time: 0:00:00.035713
+	+ Batch 61, Inference Time: 0:00:00.034738
+	+ Batch 62, Inference Time: 0:00:00.034733
+	+ Batch 63, Inference Time: 0:00:00.095164
+	+ Batch 64, Inference Time: 0:00:00.069040
+	+ Batch 65, Inference Time: 0:00:00.050539
+	+ Batch 66, Inference Time: 0:00:00.032257
+	+ Batch 67, Inference Time: 0:00:00.032869
+	+ Batch 68, Inference Time: 0:00:00.031344
+	+ Batch 69, Inference Time: 0:00:00.031682
+	+ Batch 70, Inference Time: 0:00:00.032225
+	+ Batch 71, Inference Time: 0:00:00.151521
+	+ Batch 72, Inference Time: 0:00:00.056077
+	+ Batch 73, Inference Time: 0:00:00.033059
+	+ Batch 74, Inference Time: 0:00:00.032527
+	+ Batch 75, Inference Time: 0:00:00.032566
+	+ Batch 76, Inference Time: 0:00:00.032800
+	+ Batch 77, Inference Time: 0:00:00.031843
+	+ Batch 78, Inference Time: 0:00:00.031570
+	+ Batch 79, Inference Time: 0:00:00.257427
+	+ Batch 80, Inference Time: 0:00:00.031997
+	+ Batch 81, Inference Time: 0:00:00.031351
+	+ Batch 82, Inference Time: 0:00:00.033069
+	+ Batch 83, Inference Time: 0:00:00.032761
+	+ Batch 84, Inference Time: 0:00:00.030308
+	+ Batch 85, Inference Time: 0:00:00.032121
+	+ Batch 86, Inference Time: 0:00:00.032976
+	+ Batch 87, Inference Time: 0:00:00.115677
+	+ Batch 88, Inference Time: 0:00:00.048549
+	+ Batch 89, Inference Time: 0:00:00.032660
+	+ Batch 90, Inference Time: 0:00:00.034111
+	+ Batch 91, Inference Time: 0:00:00.034046
+	+ Batch 92, Inference Time: 0:00:00.032464
+	+ Batch 93, Inference Time: 0:00:00.032708
+	+ Batch 94, Inference Time: 0:00:00.031281
+	+ Batch 95, Inference Time: 0:00:00.090272
+	+ Batch 96, Inference Time: 0:00:00.032466
+	+ Batch 97, Inference Time: 0:00:00.031794
+	+ Batch 98, Inference Time: 0:00:00.032563
+	+ Batch 99, Inference Time: 0:00:00.033472
+	+ Batch 100, Inference Time: 0:00:00.036298
+	+ Batch 101, Inference Time: 0:00:00.031929
+	+ Batch 102, Inference Time: 0:00:00.030378
+	+ Batch 103, Inference Time: 0:00:00.153592
+	+ Batch 104, Inference Time: 0:00:00.075171
+	+ Batch 105, Inference Time: 0:00:00.053661
+	+ Batch 106, Inference Time: 0:00:00.038666
+	+ Batch 107, Inference Time: 0:00:00.040449
+	+ Batch 108, Inference Time: 0:00:00.036991
+	+ Batch 109, Inference Time: 0:00:00.034421
+	+ Batch 110, Inference Time: 0:00:00.035991
+	+ Batch 111, Inference Time: 0:00:00.095407
+	+ Batch 112, Inference Time: 0:00:00.061027
+	+ Batch 113, Inference Time: 0:00:00.067949
+	+ Batch 114, Inference Time: 0:00:00.034917
+	+ Batch 115, Inference Time: 0:00:00.033124
+	+ Batch 116, Inference Time: 0:00:00.033860
+	+ Batch 117, Inference Time: 0:00:00.034051
+	+ Batch 118, Inference Time: 0:00:00.033999
+	+ Batch 119, Inference Time: 0:00:00.038635
+	+ Batch 120, Inference Time: 0:00:00.034276
+	+ Batch 121, Inference Time: 0:00:00.032012
+	+ Batch 122, Inference Time: 0:00:00.033546
+	+ Batch 123, Inference Time: 0:00:00.033039
+	+ Batch 124, Inference Time: 0:00:00.033206
+	+ Batch 125, Inference Time: 0:00:00.032516
+	+ Batch 126, Inference Time: 0:00:00.032670
+	+ Batch 127, Inference Time: 0:00:00.122848
+	+ Batch 128, Inference Time: 0:00:00.084913
+	+ Batch 129, Inference Time: 0:00:00.053615
+	+ Batch 130, Inference Time: 0:00:00.066630
+	+ Batch 131, Inference Time: 0:00:00.035805
+	+ Batch 132, Inference Time: 0:00:00.034353
+	+ Batch 133, Inference Time: 0:00:00.035317
+	+ Batch 134, Inference Time: 0:00:00.035632
+	+ Batch 135, Inference Time: 0:00:00.059917
+	+ Batch 136, Inference Time: 0:00:00.068652
+	+ Batch 137, Inference Time: 0:00:00.074906
+	+ Batch 138, Inference Time: 0:00:00.039478
+	+ Batch 139, Inference Time: 0:00:00.045678
+	+ Batch 140, Inference Time: 0:00:00.039808
+	+ Batch 141, Inference Time: 0:00:00.041506
+	+ Batch 142, Inference Time: 0:00:00.039927
+	+ Batch 143, Inference Time: 0:00:00.043668
+	+ Batch 144, Inference Time: 0:00:00.037893
+	+ Batch 145, Inference Time: 0:00:00.038457
+	+ Batch 146, Inference Time: 0:00:00.037855
+	+ Batch 147, Inference Time: 0:00:00.040300
+	+ Batch 148, Inference Time: 0:00:00.038246
+	+ Batch 149, Inference Time: 0:00:00.038450
+	+ Batch 150, Inference Time: 0:00:00.037579
+	+ Batch 151, Inference Time: 0:00:00.043949
+	+ Batch 152, Inference Time: 0:00:00.039653
+	+ Batch 153, Inference Time: 0:00:00.035770
+
+Saving images:
+(0) Image: 'data/samples/0000000000.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99959
+	+ Label: Car, Conf: 0.99942
+	+ Label: Pedestrian, Conf: 0.99990
+	+ Label: Cyclist, Conf: 1.00000
+(1) Image: 'data/samples/0000000001.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.93511
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Cyclist, Conf: 1.00000
+(2) Image: 'data/samples/0000000002.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99953
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99985
+(3) Image: 'data/samples/0000000003.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99958
+	+ Label: Misc, Conf: 0.81218
+(4) Image: 'data/samples/0000000004.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99989
+(5) Image: 'data/samples/0000000005.png'
+<class 'torch.Tensor'>
+torch.Size([2, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99998
+(6) Image: 'data/samples/0000000006.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99791
+	+ Label: Car, Conf: 0.99391
+	+ Label: Pedestrian, Conf: 1.00000
+(7) Image: 'data/samples/0000000007.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.90038
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Misc, Conf: 0.97806
+(8) Image: 'data/samples/0000000008.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.86386
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99960
+	+ Label: Cyclist, Conf: 0.98665
+(9) Image: 'data/samples/0000000009.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.98509
+	+ Label: Car, Conf: 0.90072
+	+ Label: Cyclist, Conf: 0.99999
+(10) Image: 'data/samples/0000000010.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 0.97969
+	+ Label: Car, Conf: 0.97824
+	+ Label: Car, Conf: 0.97747
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99993
+	+ Label: Cyclist, Conf: 0.84827
+	+ Label: Misc, Conf: 0.94707
+(11) Image: 'data/samples/0000000011.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99983
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.99984
+(12) Image: 'data/samples/0000000012.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99459
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99982
+	+ Label: Misc, Conf: 1.00000
+(13) Image: 'data/samples/0000000013.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.92891
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99983
+	+ Label: Misc, Conf: 0.99994
+(14) Image: 'data/samples/0000000014.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99996
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99997
+(15) Image: 'data/samples/0000000015.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 1.00000
+	+ Label: Cyclist, Conf: 1.00000
+	+ Label: Misc, Conf: 0.99911
+(16) Image: 'data/samples/0000000016.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99989
+(17) Image: 'data/samples/0000000017.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99939
+	+ Label: Car, Conf: 0.96146
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+(18) Image: 'data/samples/0000000018.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99990
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99971
+(19) Image: 'data/samples/0000000019.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99987
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99755
+(20) Image: 'data/samples/0000000020.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99684
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99926
+(21) Image: 'data/samples/0000000021.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 1.00000
+(22) Image: 'data/samples/0000000022.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99991
+(23) Image: 'data/samples/0000000023.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.98043
+	+ Label: Car, Conf: 0.81000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99841
+(24) Image: 'data/samples/0000000024.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99995
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99913
+(25) Image: 'data/samples/0000000025.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99991
+	+ Label: Cyclist, Conf: 0.99989
+(26) Image: 'data/samples/0000000026.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99985
+	+ Label: Pedestrian, Conf: 0.99782
+	+ Label: Cyclist, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.91446
+(27) Image: 'data/samples/0000000027.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99683
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99977
+(28) Image: 'data/samples/0000000028.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.83489
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 1.00000
+(29) Image: 'data/samples/0000000029.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99907
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99328
+	+ Label: Misc, Conf: 0.99998
+(30) Image: 'data/samples/0000000030.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.98930
+	+ Label: Van, Conf: 0.93787
+	+ Label: Pedestrian, Conf: 0.99995
+	+ Label: Cyclist, Conf: 0.99047
+	+ Label: Cyclist, Conf: 0.84457
+(31) Image: 'data/samples/0000000031.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Misc, Conf: 0.99993
+(32) Image: 'data/samples/0000000032.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Misc, Conf: 0.99980
+(33) Image: 'data/samples/0000000033.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99757
+	+ Label: Van, Conf: 0.99988
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99846
+	+ Label: Misc, Conf: 1.00000
+(34) Image: 'data/samples/0000000034.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99986
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Cyclist, Conf: 0.91761
+(35) Image: 'data/samples/0000000035.png'
+<class 'torch.Tensor'>
+torch.Size([2, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99880
+(36) Image: 'data/samples/0000000036.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 0.99997
+	+ Label: Pedestrian, Conf: 0.99843
+	+ Label: Misc, Conf: 0.99999
+(37) Image: 'data/samples/0000000037.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99676
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.98816
+(38) Image: 'data/samples/0000000038.png'
+<class 'torch.Tensor'>
+torch.Size([2, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99870
+(39) Image: 'data/samples/0000000039.png'
+<class 'torch.Tensor'>
+torch.Size([2, 15])
+	+ Label: Car, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 1.00000
+(40) Image: 'data/samples/0000000040.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.97611
+(41) Image: 'data/samples/0000000041.png'
+<class 'torch.Tensor'>
+torch.Size([2, 15])
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99997
+(42) Image: 'data/samples/0000000042.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 0.99963
+	+ Label: Van, Conf: 0.99990
+	+ Label: Cyclist, Conf: 0.99494
+(43) Image: 'data/samples/0000000043.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.98301
+	+ Label: Pedestrian, Conf: 0.99993
+	+ Label: Cyclist, Conf: 0.99977
+(44) Image: 'data/samples/0000000044.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99604
+	+ Label: Van, Conf: 0.99988
+	+ Label: Pedestrian, Conf: 0.99698
+	+ Label: Pedestrian, Conf: 0.95604
+	+ Label: Cyclist, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.83793
+(45) Image: 'data/samples/0000000045.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 0.99936
+	+ Label: Car, Conf: 0.97411
+	+ Label: Pedestrian, Conf: 0.99440
+(46) Image: 'data/samples/0000000046.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.98538
+	+ Label: Van, Conf: 0.85037
+	+ Label: Pedestrian, Conf: 0.98563
+	+ Label: Cyclist, Conf: 0.99915
+(47) Image: 'data/samples/0000000047.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99990
+	+ Label: Van, Conf: 0.89273
+	+ Label: Cyclist, Conf: 0.94403
+(48) Image: 'data/samples/0000000048.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.94394
+	+ Label: Van, Conf: 0.99380
+	+ Label: Pedestrian, Conf: 0.99993
+	+ Label: Cyclist, Conf: 0.99992
+(49) Image: 'data/samples/0000000049.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.84946
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99999
+(50) Image: 'data/samples/0000000050.png'
+<class 'torch.Tensor'>
+torch.Size([1, 15])
+	+ Label: Car, Conf: 0.99998
+(51) Image: 'data/samples/0000000051.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99986
+	+ Label: Car, Conf: 0.90625
+	+ Label: Van, Conf: 0.80420
+	+ Label: Cyclist, Conf: 0.84952
+	+ Label: Cyclist, Conf: 0.80813
+(52) Image: 'data/samples/0000000052.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99994
+	+ Label: Cyclist, Conf: 0.99953
+	+ Label: Misc, Conf: 0.97921
+(53) Image: 'data/samples/0000000053.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.98499
+	+ Label: Car, Conf: 0.97824
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99965
+	+ Label: Cyclist, Conf: 0.99507
+	+ Label: Misc, Conf: 0.93345
+(54) Image: 'data/samples/0000000054.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99997
+	+ Label: Van, Conf: 0.99998
+	+ Label: Van, Conf: 0.98993
+(55) Image: 'data/samples/0000000055.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99941
+(56) Image: 'data/samples/0000000056.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99993
+	+ Label: Car, Conf: 0.90656
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99960
+	+ Label: Pedestrian, Conf: 0.99846
+	+ Label: Misc, Conf: 0.97296
+(57) Image: 'data/samples/0000000057.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99902
+	+ Label: Car, Conf: 0.99841
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99969
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99259
+	+ Label: Misc, Conf: 0.99554
+(58) Image: 'data/samples/0000000058.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99989
+	+ Label: Car, Conf: 0.96795
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99969
+	+ Label: Van, Conf: 0.99289
+	+ Label: Pedestrian, Conf: 0.99922
+	+ Label: Cyclist, Conf: 0.96295
+(59) Image: 'data/samples/0000000059.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99995
+	+ Label: Car, Conf: 0.91151
+	+ Label: Van, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 0.99985
+	+ Label: Misc, Conf: 0.97360
+(60) Image: 'data/samples/0000000060.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.95969
+	+ Label: Van, Conf: 0.99992
+	+ Label: Pedestrian, Conf: 0.99994
+	+ Label: Pedestrian, Conf: 0.98023
+	+ Label: Cyclist, Conf: 1.00000
+(61) Image: 'data/samples/0000000061.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99932
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99493
+	+ Label: Pedestrian, Conf: 0.99220
+	+ Label: Cyclist, Conf: 0.99989
+(62) Image: 'data/samples/0000000062.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99955
+	+ Label: Cyclist, Conf: 0.99846
+(63) Image: 'data/samples/0000000063.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Cyclist, Conf: 0.99994
+(64) Image: 'data/samples/0000000064.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99777
+	+ Label: Van, Conf: 0.99994
+	+ Label: Pedestrian, Conf: 0.99991
+	+ Label: Pedestrian, Conf: 0.96317
+	+ Label: Cyclist, Conf: 0.99959
+(65) Image: 'data/samples/0000000065.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99993
+	+ Label: Pedestrian, Conf: 0.99939
+	+ Label: Cyclist, Conf: 0.99997
+(66) Image: 'data/samples/0000000066.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99991
+	+ Label: Van, Conf: 0.99619
+	+ Label: Pedestrian, Conf: 0.99801
+	+ Label: Misc, Conf: 0.99994
+(67) Image: 'data/samples/0000000067.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99869
+	+ Label: Misc, Conf: 0.99765
+(68) Image: 'data/samples/0000000068.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 1.00000
+(69) Image: 'data/samples/0000000069.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99351
+	+ Label: Car, Conf: 0.96429
+	+ Label: Pedestrian, Conf: 0.99979
+(70) Image: 'data/samples/0000000070.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99995
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99941
+(71) Image: 'data/samples/0000000071.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99998
+(72) Image: 'data/samples/0000000072.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99990
+	+ Label: Car, Conf: 0.99964
+	+ Label: Van, Conf: 0.99823
+	+ Label: Pedestrian, Conf: 0.99962
+	+ Label: Cyclist, Conf: 0.99997
+(73) Image: 'data/samples/0000000073.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99989
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99718
+(74) Image: 'data/samples/0000000074.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99752
+	+ Label: Car, Conf: 0.92687
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99999
+(75) Image: 'data/samples/0000000075.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99848
+	+ Label: Van, Conf: 0.99995
+	+ Label: Pedestrian, Conf: 0.99868
+	+ Label: Misc, Conf: 1.00000
+(76) Image: 'data/samples/0000000076.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99888
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99912
+	+ Label: Cyclist, Conf: 0.99955
+	+ Label: Misc, Conf: 0.99993
+(77) Image: 'data/samples/0000000077.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99949
+	+ Label: Car, Conf: 0.98485
+	+ Label: Van, Conf: 0.99997
+	+ Label: Pedestrian, Conf: 0.99997
+	+ Label: Cyclist, Conf: 0.99871
+(78) Image: 'data/samples/0000000078.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99999
+	+ Label: Van, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 1.00000
+(79) Image: 'data/samples/0000000079.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99568
+	+ Label: Car, Conf: 0.94320
+	+ Label: Van, Conf: 0.99996
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99915
+	+ Label: Pedestrian, Conf: 0.84091
+(80) Image: 'data/samples/0000000080.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99993
+	+ Label: Car, Conf: 0.97797
+	+ Label: Van, Conf: 0.99990
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Cyclist, Conf: 0.99161
+(81) Image: 'data/samples/0000000081.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99918
+	+ Label: Car, Conf: 0.99428
+	+ Label: Pedestrian, Conf: 0.99984
+	+ Label: Pedestrian, Conf: 0.99080
+	+ Label: Cyclist, Conf: 0.95830
+(82) Image: 'data/samples/0000000082.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 0.99961
+	+ Label: Car, Conf: 0.99687
+	+ Label: Car, Conf: 0.98051
+	+ Label: Car, Conf: 0.94661
+	+ Label: Van, Conf: 0.99326
+	+ Label: Pedestrian, Conf: 0.96018
+	+ Label: Cyclist, Conf: 0.99995
+	+ Label: Cyclist, Conf: 0.97621
+	+ Label: Misc, Conf: 0.99976
+(83) Image: 'data/samples/0000000083.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 0.99954
+	+ Label: Car, Conf: 0.99806
+	+ Label: Van, Conf: 0.80013
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 0.99882
+	+ Label: Pedestrian, Conf: 0.99048
+	+ Label: Cyclist, Conf: 0.96358
+	+ Label: Cyclist, Conf: 0.93801
+	+ Label: Cyclist, Conf: 0.81597
+(84) Image: 'data/samples/0000000084.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 0.99842
+	+ Label: Van, Conf: 0.99855
+	+ Label: Pedestrian, Conf: 0.99994
+	+ Label: Pedestrian, Conf: 0.99896
+(85) Image: 'data/samples/0000000085.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99998
+	+ Label: Van, Conf: 0.99996
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Pedestrian, Conf: 0.95758
+	+ Label: Misc, Conf: 0.93513
+(86) Image: 'data/samples/0000000086.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99954
+	+ Label: Car, Conf: 0.99823
+	+ Label: Van, Conf: 0.99970
+	+ Label: Van, Conf: 0.98639
+	+ Label: Pedestrian, Conf: 0.99880
+	+ Label: Pedestrian, Conf: 0.99850
+	+ Label: Cyclist, Conf: 0.94385
+(87) Image: 'data/samples/0000000087.png'
+<class 'torch.Tensor'>
+torch.Size([3, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Van, Conf: 0.99956
+	+ Label: Van, Conf: 0.93187
+(88) Image: 'data/samples/0000000088.png'
+<class 'torch.Tensor'>
+torch.Size([12, 15])
+	+ Label: Car, Conf: 0.99994
+	+ Label: Car, Conf: 0.99988
+	+ Label: Car, Conf: 0.99988
+	+ Label: Van, Conf: 0.99996
+	+ Label: Pedestrian, Conf: 0.99992
+	+ Label: Pedestrian, Conf: 0.99990
+	+ Label: Pedestrian, Conf: 0.99972
+	+ Label: Pedestrian, Conf: 0.99969
+	+ Label: Person_sitting, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99679
+	+ Label: Misc, Conf: 0.99996
+	+ Label: Misc, Conf: 0.99992
+(89) Image: 'data/samples/0000000089.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.97974
+	+ Label: Car, Conf: 0.91016
+	+ Label: Van, Conf: 0.99703
+	+ Label: Pedestrian, Conf: 0.86346
+	+ Label: Misc, Conf: 0.99995
+(90) Image: 'data/samples/0000000090.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99792
+	+ Label: Car, Conf: 0.84460
+	+ Label: Van, Conf: 0.99998
+	+ Label: Van, Conf: 0.99250
+	+ Label: Person_sitting, Conf: 0.99999
+	+ Label: Person_sitting, Conf: 0.96674
+	+ Label: Cyclist, Conf: 0.83943
+	+ Label: Misc, Conf: 0.99994
+(91) Image: 'data/samples/0000000091.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 0.99986
+	+ Label: Car, Conf: 0.99787
+	+ Label: Car, Conf: 0.97386
+	+ Label: Person_sitting, Conf: 1.00000
+	+ Label: Person_sitting, Conf: 0.94886
+	+ Label: Cyclist, Conf: 0.99988
+	+ Label: Cyclist, Conf: 0.99882
+	+ Label: Cyclist, Conf: 0.99636
+	+ Label: Misc, Conf: 0.93928
+(92) Image: 'data/samples/0000000092.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99926
+	+ Label: Car, Conf: 0.81371
+	+ Label: Van, Conf: 0.99993
+	+ Label: Van, Conf: 0.98763
+	+ Label: Van, Conf: 0.98710
+(93) Image: 'data/samples/0000000093.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 0.99968
+	+ Label: Car, Conf: 0.99897
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99978
+	+ Label: Van, Conf: 0.99597
+	+ Label: Van, Conf: 0.90663
+	+ Label: Cyclist, Conf: 0.99970
+(94) Image: 'data/samples/0000000094.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 0.99994
+	+ Label: Van, Conf: 0.99942
+	+ Label: Van, Conf: 0.89417
+	+ Label: Pedestrian, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.99970
+(95) Image: 'data/samples/0000000095.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.92862
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.89135
+(96) Image: 'data/samples/0000000096.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99984
+	+ Label: Car, Conf: 0.99770
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99946
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99676
+(97) Image: 'data/samples/0000000097.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99913
+	+ Label: Car, Conf: 0.99324
+	+ Label: Car, Conf: 0.93126
+	+ Label: Pedestrian, Conf: 0.99928
+(98) Image: 'data/samples/0000000098.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99816
+	+ Label: Car, Conf: 0.97495
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.81812
+	+ Label: Pedestrian, Conf: 0.99250
+	+ Label: Misc, Conf: 0.99991
+(99) Image: 'data/samples/0000000099.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99833
+	+ Label: Car, Conf: 0.97398
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.98938
+	+ Label: Van, Conf: 0.97644
+	+ Label: Pedestrian, Conf: 0.99882
+	+ Label: Cyclist, Conf: 0.99999
+(100) Image: 'data/samples/0000000100.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99995
+	+ Label: Car, Conf: 0.98460
+	+ Label: Van, Conf: 0.99996
+	+ Label: Van, Conf: 0.99646
+	+ Label: Truck, Conf: 0.99767
+	+ Label: Pedestrian, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.96527
+	+ Label: Misc, Conf: 0.99999
+(101) Image: 'data/samples/0000000101.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99987
+	+ Label: Van, Conf: 0.99996
+	+ Label: Pedestrian, Conf: 0.97422
+	+ Label: Misc, Conf: 0.99973
+(102) Image: 'data/samples/0000000102.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99994
+	+ Label: Car, Conf: 0.93779
+	+ Label: Van, Conf: 0.87395
+(103) Image: 'data/samples/0000000103.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99944
+	+ Label: Car, Conf: 0.94888
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.98668
+	+ Label: Cyclist, Conf: 1.00000
+(104) Image: 'data/samples/0000000104.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99868
+	+ Label: Car, Conf: 0.99262
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99003
+	+ Label: Cyclist, Conf: 0.99448
+	+ Label: Misc, Conf: 0.99998
+(105) Image: 'data/samples/0000000105.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.98957
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99909
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99941
+	+ Label: Misc, Conf: 1.00000
+(106) Image: 'data/samples/0000000106.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99859
+	+ Label: Van, Conf: 0.99991
+	+ Label: Van, Conf: 0.99986
+	+ Label: Pedestrian, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.99436
+	+ Label: Misc, Conf: 0.99999
+	+ Label: Misc, Conf: 0.99834
+(107) Image: 'data/samples/0000000107.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99995
+	+ Label: Car, Conf: 0.99992
+	+ Label: Car, Conf: 0.99142
+	+ Label: Car, Conf: 0.81394
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99984
+	+ Label: Misc, Conf: 0.99992
+	+ Label: Misc, Conf: 0.99980
+(108) Image: 'data/samples/0000000108.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99992
+	+ Label: Car, Conf: 0.99930
+	+ Label: Van, Conf: 0.99997
+	+ Label: Misc, Conf: 1.00000
+	+ Label: Misc, Conf: 0.98915
+(109) Image: 'data/samples/0000000109.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Cyclist, Conf: 1.00000
+(110) Image: 'data/samples/0000000110.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99993
+	+ Label: Car, Conf: 0.99993
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 1.00000
+	+ Label: Misc, Conf: 0.99617
+(111) Image: 'data/samples/0000000111.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.97570
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99925
+	+ Label: Misc, Conf: 1.00000
+	+ Label: Misc, Conf: 0.84554
+(112) Image: 'data/samples/0000000112.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.96958
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+	+ Label: Misc, Conf: 0.93866
+(113) Image: 'data/samples/0000000113.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99840
+	+ Label: Car, Conf: 0.97793
+	+ Label: Car, Conf: 0.95108
+	+ Label: Van, Conf: 0.99999
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Misc, Conf: 0.94752
+(114) Image: 'data/samples/0000000114.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.98245
+	+ Label: Car, Conf: 0.91162
+	+ Label: Car, Conf: 0.87563
+	+ Label: Van, Conf: 0.99996
+	+ Label: Pedestrian, Conf: 0.99997
+	+ Label: Misc, Conf: 0.99986
+(115) Image: 'data/samples/0000000115.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99993
+	+ Label: Van, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99906
+(116) Image: 'data/samples/0000000116.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Van, Conf: 0.99998
+	+ Label: Cyclist, Conf: 0.94336
+	+ Label: Misc, Conf: 0.99894
+(117) Image: 'data/samples/0000000117.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99992
+	+ Label: Car, Conf: 0.99988
+	+ Label: Van, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.99524
+(118) Image: 'data/samples/0000000118.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99919
+	+ Label: Car, Conf: 0.99911
+	+ Label: Car, Conf: 0.98389
+(119) Image: 'data/samples/0000000119.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99954
+	+ Label: Van, Conf: 0.99997
+	+ Label: Cyclist, Conf: 0.98004
+	+ Label: Misc, Conf: 0.99310
+(120) Image: 'data/samples/0000000120.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99968
+	+ Label: Van, Conf: 0.99990
+	+ Label: Cyclist, Conf: 0.96201
+(121) Image: 'data/samples/0000000121.png'
+<class 'torch.Tensor'>
+torch.Size([4, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+(122) Image: 'data/samples/0000000122.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99994
+	+ Label: Van, Conf: 1.00000
+(123) Image: 'data/samples/0000000123.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99983
+	+ Label: Van, Conf: 0.99998
+(124) Image: 'data/samples/0000000124.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99994
+	+ Label: Car, Conf: 0.87328
+	+ Label: Van, Conf: 0.99998
+(125) Image: 'data/samples/0000000125.png'
+<class 'torch.Tensor'>
+torch.Size([6, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99984
+	+ Label: Van, Conf: 1.00000
+(126) Image: 'data/samples/0000000126.png'
+<class 'torch.Tensor'>
+torch.Size([5, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99997
+(127) Image: 'data/samples/0000000127.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99955
+	+ Label: Van, Conf: 0.99994
+	+ Label: Cyclist, Conf: 0.95893
+(128) Image: 'data/samples/0000000128.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99976
+	+ Label: Van, Conf: 0.99991
+(129) Image: 'data/samples/0000000129.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.98430
+	+ Label: Van, Conf: 0.99999
+(130) Image: 'data/samples/0000000130.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99995
+	+ Label: Van, Conf: 1.00000
+(131) Image: 'data/samples/0000000131.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99974
+	+ Label: Car, Conf: 0.96377
+	+ Label: Van, Conf: 1.00000
+(132) Image: 'data/samples/0000000132.png'
+<class 'torch.Tensor'>
+torch.Size([7, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99174
+	+ Label: Van, Conf: 1.00000
+(133) Image: 'data/samples/0000000133.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99994
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99403
+(134) Image: 'data/samples/0000000134.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99995
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+(135) Image: 'data/samples/0000000135.png'
+<class 'torch.Tensor'>
+torch.Size([9, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99988
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+(136) Image: 'data/samples/0000000136.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99994
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99999
+(137) Image: 'data/samples/0000000137.png'
+<class 'torch.Tensor'>
+torch.Size([8, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99991
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99584
+(138) Image: 'data/samples/0000000138.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99945
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99938
+(139) Image: 'data/samples/0000000139.png'
+<class 'torch.Tensor'>
+torch.Size([11, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99994
+	+ Label: Car, Conf: 0.99934
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99994
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99456
+(140) Image: 'data/samples/0000000140.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99992
+	+ Label: Car, Conf: 0.99981
+	+ Label: Car, Conf: 0.99953
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.98730
+	+ Label: Pedestrian, Conf: 0.99999
+(141) Image: 'data/samples/0000000141.png'
+<class 'torch.Tensor'>
+torch.Size([12, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99922
+	+ Label: Van, Conf: 0.99132
+	+ Label: Pedestrian, Conf: 0.99980
+	+ Label: Cyclist, Conf: 0.99912
+(142) Image: 'data/samples/0000000142.png'
+<class 'torch.Tensor'>
+torch.Size([13, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99004
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99998
+	+ Label: Van, Conf: 0.99974
+	+ Label: Pedestrian, Conf: 0.99996
+	+ Label: Cyclist, Conf: 0.99997
+	+ Label: Cyclist, Conf: 0.99888
+(143) Image: 'data/samples/0000000143.png'
+<class 'torch.Tensor'>
+torch.Size([13, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99991
+	+ Label: Car, Conf: 0.99987
+	+ Label: Car, Conf: 0.99981
+	+ Label: Car, Conf: 0.99971
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99997
+	+ Label: Van, Conf: 0.99058
+	+ Label: Cyclist, Conf: 1.00000
+(144) Image: 'data/samples/0000000144.png'
+<class 'torch.Tensor'>
+torch.Size([11, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99883
+	+ Label: Car, Conf: 0.86585
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 0.99997
+	+ Label: Pedestrian, Conf: 0.99991
+	+ Label: Cyclist, Conf: 1.00000
+(145) Image: 'data/samples/0000000145.png'
+<class 'torch.Tensor'>
+torch.Size([12, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99991
+	+ Label: Car, Conf: 0.99010
+	+ Label: Van, Conf: 1.00000
+	+ Label: Van, Conf: 1.00000
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Cyclist, Conf: 1.00000
+(146) Image: 'data/samples/0000000146.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Van, Conf: 0.99993
+	+ Label: Van, Conf: 0.99709
+	+ Label: Pedestrian, Conf: 0.97475
+	+ Label: Cyclist, Conf: 0.99996
+(147) Image: 'data/samples/0000000147.png'
+<class 'torch.Tensor'>
+torch.Size([12, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.90481
+	+ Label: Van, Conf: 0.99831
+	+ Label: Van, Conf: 0.99417
+	+ Label: Pedestrian, Conf: 0.99848
+	+ Label: Pedestrian, Conf: 0.99612
+(148) Image: 'data/samples/0000000148.png'
+<class 'torch.Tensor'>
+torch.Size([13, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99987
+	+ Label: Car, Conf: 0.99970
+	+ Label: Van, Conf: 0.81320
+	+ Label: Pedestrian, Conf: 0.99991
+	+ Label: Pedestrian, Conf: 0.92968
+	+ Label: Misc, Conf: 0.86855
+(149) Image: 'data/samples/0000000149.png'
+<class 'torch.Tensor'>
+torch.Size([11, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99999
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99996
+	+ Label: Car, Conf: 0.99968
+	+ Label: Pedestrian, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99999
+(150) Image: 'data/samples/0000000150.png'
+<class 'torch.Tensor'>
+torch.Size([11, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99951
+	+ Label: Car, Conf: 0.91899
+	+ Label: Pedestrian, Conf: 0.99998
+	+ Label: Cyclist, Conf: 0.99968
+(151) Image: 'data/samples/0000000151.png'
+<class 'torch.Tensor'>
+torch.Size([15, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99998
+	+ Label: Car, Conf: 0.99997
+	+ Label: Car, Conf: 0.99887
+	+ Label: Van, Conf: 0.99990
+	+ Label: Van, Conf: 0.99984
+	+ Label: Van, Conf: 0.99834
+	+ Label: Pedestrian, Conf: 0.99982
+	+ Label: Cyclist, Conf: 0.99999
+	+ Label: Cyclist, Conf: 0.99834
+(152) Image: 'data/samples/0000000152.png'
+<class 'torch.Tensor'>
+torch.Size([12, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99995
+	+ Label: Van, Conf: 0.99999
+	+ Label: Van, Conf: 0.99616
+	+ Label: Pedestrian, Conf: 1.00000
+	+ Label: Cyclist, Conf: 1.00000
+	+ Label: Cyclist, Conf: 0.99999
+(153) Image: 'data/samples/0000000153.png'
+<class 'torch.Tensor'>
+torch.Size([10, 15])
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 1.00000
+	+ Label: Car, Conf: 0.99973
+	+ Label: Car, Conf: 0.99972
+	+ Label: Car, Conf: 0.99960
+	+ Label: Van, Conf: 0.95565
+	+ Label: Cyclist, Conf: 0.99992
